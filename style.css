@@ -1,0 +1,26 @@
+@import "vars.css";
+body {
+    background: var(--background-body);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background: var(--background-article);
+}
+
+aside img {
+    background: var(--background-aside);
+    display: block;
+    max-width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}

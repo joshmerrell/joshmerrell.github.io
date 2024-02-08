@@ -1,0 +1,7 @@
+@import "https://unpkg.com/open-props";
+
+:root {
+    --background-body: gainsboro;
+    --background-article: lightcoral;
+    --background-aside: cornflowerblue
+}
