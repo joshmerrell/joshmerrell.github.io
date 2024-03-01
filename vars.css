@@ -3,7 +3,10 @@
 
 
 :root {
-    --background-article: #6ABFC6;
+    --background-article: #5CAB5E;
     --background-aside: #626262;
     --header-font: "Kode Mono", monospace;
+    --link-btn-bg: #6ABFC6;
+    --link-btn-col: black;
+    --min-col-width: 1024px;
 }
