@@ -3,10 +3,12 @@
 
 
 :root {
-    --background-article: #5CAB5E;
+    --background-article: #6AB76C;
+    --figure-bg: #ADADADBD;
     --background-aside: #626262;
     --header-font: "Kode Mono", monospace;
     --link-btn-bg: #6ABFC6;
     --link-btn-col: black;
     --min-col-width: 1024px;
+    --dither-bg: url("dither-palette.png");
 }

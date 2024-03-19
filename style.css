@@ -25,7 +25,11 @@ article {
     justify-content: center;
     align-items: center;
     padding: 2em;
-    background: var(--background-article);
+    background-color: var(--background-article);
+    background-image: var(--dither-bg);
+    background-size: contain;
+    image-rendering: crisp-edges;
+    background-repeat: repeat-x;
     animation: 1s ease 0s 1 forwards fade;
 }
 
@@ -48,6 +52,10 @@ a {
 
 .italics {
     font-style: italic;;
+}
+
+figure {
+    background: var(--figure-bg);
 }
 
 nav a {
